@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>talkplace</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <script src="lib-socket-io.js"></script>
+    <script src="lib-qrcode.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <nav id="nav">
+            <!-- <div class="nav-content"> -->
+                <div class="nav-left">
+                    <button id="sidebarToggle" class="nav-button">
+                        <span class="menu-icon">  <img src="assets/sharp-regular-bars.svg" width="25px" ></span>
+                    </button>
+                <!-- </div> -->
+                <div class="nav-center">
+                    <a href="#" id="logo">TalkPlace</a>
+                </div>
+                <div class="nav-right nav-buttons">
+                    <button id="showQRButton" class="nav-button">Show QR</button>
+                    <button id="connectButton" class="nav-button">Connect</button>
+                    <!-- <button id="galleryButton" class="nav-button">Gallery</button> -->
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <h2>Join Chat</h2>
+                <div class="login-form">
+                    <input type="text" id="usernameInput" placeholder="Enter your username" autofocus>
+                    <input type="password" id="passwordInput" placeholder="Enter your password">
+                    <div id="loginError" class="error-message" style="display: none; color: red; margin-bottom: 10px;"></div>
+                    <button id="loginButton">Login</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connect Modal -->
+        <div id="connectModal" class="modal">
+            <div class="modal-content">
+                <h2>Connect to Server</h2>
+                <div class="connect-options">
+                    <input type="text" id="serverAddressInput" placeholder="Enter server address">
+                    <button id="connectServerButton">Connect</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- QR Code Modal -->
+        <div id="qrModal" class="modal">
+            <div class="modal-content">
+                <h2>Server QR Code</h2>
+                <div class="qr-container">
+                    <div id="qrCode"></div>
+                    <div class="ip-toggle">
+                        <button id="ipv4Button" class="ip-toggle-button active">IPv4</button>
+                        <button id="ipv6Button" class="ip-toggle-button">IPv6</button>
+                    </div>
+                    <div class="server-info">
+                        <div id="serverAddress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="sidebar">
+                <!-- <div class="empty"></div> -->
+                <h3>Online Users</h3>
+                <div id="userList" class="user-list">
+                    <!-- User list will be populated dynamically -->
+                     <div class="user-item">test</div>
+                </div>
+            </div>
+            
+            <div class="main-chat">
+                <div id="msgcontainer" class="message-container">
+                    <!-- Messages will be added here -->
+                   
+                    
+                     <div class="message sent">hello dost</div>
+                     <div class="message recieved">hello friend</div>
+                  
+                     <div class="message received">
+                        <div class="message-sender">test</div>
+                        <div class="message-content">
+                            <div class="video-card">
+                                <video controls="">
+                                    <source src="assets/test-video.webm" type="video/webm">
+                                </video>
+                                <div class="video-info">
+                                    <div class="video-title">sample video</div>
+                                    <a href="assets/test-video.webm" download=" test-video.webm=" class="video-link"> Download (10.7 MB)</a>
+                                </div>
+                            </div></div>
+                        <div class="message-time">7:50 PM</div>
+                    </div>
+                        
+                </div>
+                
+                <div class="input-container">
+                    <input type="file" id="fileInput" style="display: none">
+                    <button id="fileButton" class="action-button">
+                        <img src="assets/regular-square-plus.svg" width="28px" >
+                    </button>
+                    <input type="text" id="inputtextbox" placeholder="Type your message...">
+                    <button id="sendbtn" class="action-button">
+                        <img src="assets/sharp-solid-paper-plane.svg" width="24px" >
+                    </button>
+                </div>
+                
+                <div id="typingIndicator" class="typing-indicator"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="wsclient.js"></script>
+</body>
+</html>
