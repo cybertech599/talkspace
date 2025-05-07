@@ -11,66 +11,6 @@
       "message": "kaise ho aap 🔥",
       "timestamp": 1746421748957,
       "type": "text"
-    },
-    {
-      "sender": "harsh",
-      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"http://192.168.172.189:8080/uploads/1746422075778-ljoyfqueeym.webm\" type=\"video/webm\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">Todh_-_Prince_Narula_Munawa...</div>\n                    <a href=\"http://192.168.172.189:8080/uploads/1746422075778-ljoyfqueeym.webm\" download=\"Todh_-_Prince_Narula_Munawar_Official_Video_Jaymeet_Rony_Ajnali_Gill_Machhrai_Prince_Narula_Music.webm\" class=\"video-link\">Download (56.5 MB)</a>\n                </div>\n            </div>",
-      "timestamp": 1746422076399,
-      "type": "text"
-    },
-    {
-      "sender": "test",
-      "message": "hello ! , i am a test user ",
-      "timestamp": 1746422264310,
-      "type": "text"
-    },
-    {
-      "sender": "harsh",
-      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"http://192.168.172.189:8080/uploads/1746422274691-gx4y4ttfvsk.webm\" type=\"video/webm\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">Distance_Love_-_Zehr_Vibe_Y...</div>\n                    <a href=\"http://192.168.172.189:8080/uploads/1746422274691-gx4y4ttfvsk.webm\" download=\"Distance_Love_-_Zehr_Vibe_Yaari_Ghuman_Punjabi_Song_2021_Jatt_Life_Studios.webm\" class=\"video-link\">Download (31.1 MB)</a>\n                </div>\n            </div>",
-      "timestamp": 1746422275044,
-      "type": "text"
-    },
-    {
-      "sender": "harsh",
-      "message": "<img src=\"http://192.168.172.189:8080/uploads/1746422555193-rrspm6m4mds.avif\" alt=\"bg6.avif\" style=\"max-width: 200px; max-height: 200px;\"><br><a href=\"http://192.168.172.189:8080/uploads/1746422555193-rrspm6m4mds.avif\" download=\"bg6.avif\">bg6.avif</a> (258.2 KB)",
-      "timestamp": 1746422555260,
-      "type": "text"
-    },
-    {
-      "sender": "dinesh",
-      "message": "Hello",
-      "timestamp": 1746507939723,
-      "type": "text"
-    },
-    {
-      "sender": "HARSH",
-      "message": "helo dinesh",
-      "timestamp": 1746507957101,
-      "type": "text"
-    },
-    {
-      "sender": "HARSH",
-      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"http://localhost:8080/uploads/1746507982643-kq6n34veqxb.webm\" type=\"video/webm\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">Distance_Love_-_Zehr_Vibe_Y...</div>\n                    <br>\n                    <a href=\"http://localhost:8080/uploads/1746507982643-kq6n34veqxb.webm\" download=\"Distance_Love_-_Zehr_Vibe_Yaari_Ghuman_Punjabi_Song_2021_Jatt_Life_Studios.webm\" class=\"video-link\">Download (31.1 MB)</a>\n                </div>\n            </div>",
-      "timestamp": 1746507983044,
-      "type": "text"
-    },
-    {
-      "sender": "dinesh",
-      "message": "<img src=\"http://192.168.87.189:8080/uploads/1746508079151-cd3ycimd227.png\" alt=\"Screenshot 2025-05-06 103745.png\" style=\"max-width: 200px; max-height: 200px;\"><br><a href=\"http://192.168.87.189:8080/uploads/1746508079151-cd3ycimd227.png\" download=\"Screenshot 2025-05-06 103745.png\">Screenshot 2025-05-06 103745.png</a> (91.4 KB)",
-      "timestamp": 1746508079192,
-      "type": "text"
-    },
-    {
-      "sender": "harsh",
-      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"http://localhost:8080/uploads/1746508160904-z7cys9yztn8.webm\" type=\"video/webm\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">Todh_-_Prince_Narula_Munawa...</div>\n                    <br>\n                    <a href=\"http://localhost:8080/uploads/1746508160904-z7cys9yztn8.webm\" download=\"Todh_-_Prince_Narula_Munawar_Official_Video_Jaymeet_Rony_Ajnali_Gill_Machhrai_Prince_Narula_Music.webm\" class=\"video-link\">Download (56.5 MB)</a>\n                </div>\n            </div>",
-      "timestamp": 1746508161542,
-      "type": "text"
-    },
-    {
-      "sender": "harsh",
-      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"http://192.168.87.189:8080/uploads/1746508211611-r3bej7d14th.webm\" type=\"video/webm\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">Distance_Love_-_Zehr_Vibe_Y...</div>\n                    <br>\n                    <a href=\"http://192.168.87.189:8080/uploads/1746508211611-r3bej7d14th.webm\" download=\"Distance_Love_-_Zehr_Vibe_Yaari_Ghuman_Punjabi_Song_2021_Jatt_Life_Studios.webm\" class=\"video-link\">Download (31.1 MB)</a>\n                </div>\n            </div>",
-      "timestamp": 1746508211935,
-      "type": "text"
     }
   ]
 }
