@@ -29,9 +29,9 @@ body {
     flex-direction: column;
     height: 100vh;
     padding-top:  50px ;
-    background: url("assets/bg4.png")   no-repeat  center/cover ;
+/*     background: url("assets/bg4.png")   no-repeat  center/cover ; */
 
-    background: url("assets/bg16.avif")   no-repeat  center/cover ;
+    background: url("/assets/bg16.png")   no-repeat  center/cover ;
 /*     background: #992ad1; */
 /*     background: linear-gradient(90deg, rgba(153, 42, 209, 1) 0%, rgba(43, 189, 162, 1) 42%, rgba(206, 212, 36, 1) 100%); */
 
