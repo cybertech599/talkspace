@@ -21,33 +21,14 @@
       "password": "1212",
       "preferences": {}
     },
-    "haharsh": {
-      "created": 1746368271872,
-      "lastLogin": 1746368271872,
-      "loginCount": 1,
-      "password": "1212",
-      "preferences": {}
-    },
-    "user": {
-      "created": 1746369087478,
-      "lastLogin": 1746369403457,
-      "loginCount": 6,
-      "password": "12",
-      "preferences": {}
-    },
+
     "dinesh": {
       "created": 1746507626144,
       "lastLogin": 1746508714894,
       "loginCount": 6,
       "password": "1234",
       "preferences": {}
-    },
-    "HARSH": {
-      "created": 1746507948643,
-      "lastLogin": 1746507948643,
-      "loginCount": 1,
-      "password": "1212",
-      "preferences": {}
     }
+  
   }
 }
