@@ -159,7 +159,7 @@ passwordInput.addEventListener('keypress', (e) => {
 function handleLogin() {
     const name = usernameInput.value.trim();
     const password = passwordInput.value;
-    username = name
+    username = name ;
     if (!name || !password) {
         showErrorMessage('Username and password are required');
         if (!name) usernameInput.focus();

@@ -2,8 +2,8 @@
   "users": {
     "harsh": {
       "created": 1746360425108,
-      "lastLogin": 1746642013767,
-      "loginCount": 58,
+      "lastLogin": 1746943804779,
+      "loginCount": 61,
       "password": "1212",
       "preferences": {}
     },
@@ -21,7 +21,6 @@
       "password": "1212",
       "preferences": {}
     },
-
     "dinesh": {
       "created": 1746507626144,
       "lastLogin": 1746508714894,
@@ -29,6 +28,5 @@
       "password": "1234",
       "preferences": {}
     }
-  
   }
 }
