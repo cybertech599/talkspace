@@ -47,6 +47,12 @@
       "message": "i am the test user 🔥🔥",
       "timestamp": 1746939886442,
       "type": "text"
+    },
+    {
+      "sender": "test",
+      "message": "\n            <div class=\"video-card\">\n                <video controls>\n                    <source src=\"/assets/test_video_3.webm\" type=\"video/mp4\">\n                </video>\n                <div class=\"video-info\">\n                    <div class=\"video-title\">song_3.mp4</div>\n                    <br>\n                    <a href=\"/assets/test_video_3.webm\" download=\"rgb.mp4\" class=\"video-link\">Download (31.2 MB)</a>\n                </div>\n            </div>",
+      "timestamp": 1746939099528,
+      "type": "text"
     }
   ]
 }
