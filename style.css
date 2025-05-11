@@ -311,7 +311,7 @@ background: linear-gradient(rgba(255, 255, 255, 0.301) , rgba(255, 255, 255, 0.1
 }
 
 .message-content {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.4;
     word-break: break-word;
 }
